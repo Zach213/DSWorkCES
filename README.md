@@ -57,7 +57,7 @@ Layout of code (See Appendix C of thesis for further detail and a discussion of 
             1. Helper 3: Pick a major. Find the post_grad_status breakdown
             2. Helper 4: Pick a major. Find how satisfied those from that major were in different statuses.
             3. Helper 5: Pick a major. Shows a table of what status those in that major who did each experience are in.
-        5. Intro to helper 6: Investigating graph 8 as to why Field Placements aren't more effective to satisfaction than doing no experience.
+        5. Intro to helper 6: Investigating graph 8 as to why Field Placements aren't more effective to satisfaction than doing no experience. General version of 6 given as well.
             1. Helper 6.1: Investigate how much doing an experience led to satisfaction for a major.
             2. Helper 6.2: Investigate the effectiveness of an experience on a major for satisfaction versus other majors.
             3. Helper 6.3: Investigate the effectiveness of an experience on a major for ending up in a status versus other majors.
