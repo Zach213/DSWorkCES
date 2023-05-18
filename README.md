@@ -69,4 +69,4 @@ Layout of code (See Appendix C of thesis for further detail and a discussion of 
         2. Appendix 2: Investigating duplicate experiences
         3. Appendix 3: Hard coded typo checks
         4. Appendix 4: Checking people who replied satisfied yet had preferred - what were their preferred?
-        5. Appendix 5: Using Computer Science as a case study for using the helper functions
+        5. Appendix 5: Using Computer Science as a case study for using the helper functions. Use it for best practices.
