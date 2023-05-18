@@ -3,12 +3,12 @@ Data Science Work for Career Exploration Office &amp; Rutgers as part of my seni
 
 # Layout of code
 
-Layout of code:
+Layout of code (See Appendix C of thesis for further detail and a discussion of potential biases in the data. One example is the further education competitiveness ratio. Biology has a low ratio since there are many Biology majors who want to be in graduate school, yet other majors with higher ratios might be higher since less students in those majors want to go to graduate school so the ones who do introduce selection bias as potentially being extremely driven so don't represent the strength of competitiveness of an average person in that major: https://docs.google.com/document/d/1PtWqNkUNcwYUuElqiX8NM0VRSMyUcYgMGfHv7dghhWo/edit?usp=sharing)
 
 1. Imports
-2. Data import/cleaning
+2. Data import/cleaning: Used data from 2019, 2020, 2021 from a variety of semesters and months. Cleaned by removing graduate students, rows with experiences not in common to 2019, 2020, and 2021, null rows, responded no to satisfaction but still prefer current status, and responded yes to satisfaction but still have a preferred status.
 3. Visualizations
-    1. **Part 1:** General visualizations [bold are biggest metrics to track]
+    1. **Part 1:** General visualizations [bold are suggested biggest metrics to track]
         1. **Graph 1: What % replied yes/no to satisfaction**
         2. **Graph 2: % in each post_grad_status by year and semester**
         3. Graph 3/4: Post grad status counts and % satisfied by status
@@ -32,7 +32,7 @@ Layout of code:
         3. Graph 23-28: Showing each college and the % of people in that college in each status
         4. Table 29: Showing each experience and the count of those who did those experiences in each post_grad_status and the experiences that have the highest who did them fully employed, in grad school versus want to, and seeking employment.
     3. **Part 3:** Models: Note that since 2/3 of the data has post_grad_choice=Yes, it’s an imbalanced dataset since our prediction should include 2/3 as one class over another. As a result, all 5 models can predict around 66% accuracy just by predicting all satisfied, so the models are all balanced. ********************************************[bold are most useful]********************************************
-        1. Split into regular training and testing
+        1. Split into regular training and testing using multivariate logistic regression models
             1. **Model 1: Status**
             2. Model 2: Experiences
             3. Model 3: Majors
