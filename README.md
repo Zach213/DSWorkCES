@@ -50,18 +50,18 @@ Layout of code (See Appendix C of thesis for further detail and a discussion of 
             1. Model 7: PCA
     4. ****************Part 4:**************** Helper functions
         1. Majors
-            1. **satisfaction**: Pick a major. Find the % satisfaction.
+            1. **satisfaction(major)**: Pick a major. Find the % satisfaction.
         2. Experiences
-            1. **TopMajorsDoingExperience**: Pick an experience. Find the 10 majors who did it the most.
+            1. **TopMajorsDoingExperience(experience)**: Pick an experience. Find the 10 majors who did it the most.
         3. Status
-            1. **statusBreakdown**: Pick a major. Find the post_grad_status breakdown
-            2. **statusSatisfactionBreakdown**: Pick a major. Find how satisfied those from that major were in different statuses.
-            3. **experienceStatusTableForMajor**: Pick a major. Shows a table of what status those in that major who did each experience are in.
+            1. **statusBreakdown(major)**: Pick a major. Find the post_grad_status breakdown
+            2. **statusSatisfactionBreakdown(major)**: Pick a major. Find how satisfied those from that major were in different statuses.
+            3. **experienceStatusTableForMajor(major)**: Pick a major. Shows a table of what status those in that major who did each experience are in.
         5. Intro to helper 6: Investigating graph 8 as to why Field Placements aren't more effective to satisfaction than doing no experience. General version of 6 given as well.
-            1. **satisfactionWithCountPerMajor**: Investigate how much doing an experience led to satisfaction for all majors.
-            2. **satisfactionWithExperiences**: Investigate the effectiveness of an experience on a major for satisfaction versus other majors.
-            3. **satisfactionWithSpecificExperience**: Investigate the effectiveness of an experience on a major for being satisfied versus other majors who did that experience.
-            4. **statusWithExperienceMajorComparison**: Investigate the effectiveness of an experience on a major for being in a status versus other majors.
+            1. **satisfactionWithCountPerMajor(threshold, experience)**: Investigate how much doing an experience led to satisfaction for all majors.
+            2. **satisfactionWithExperiences(major)**: Investigate the effectiveness of an experience on a major for satisfaction versus other majors.
+            3. **satisfactionWithSpecificExperience(major, experience)**: Investigate the effectiveness of an experience on a major for being satisfied versus other majors who did that experience.
+            4. **statusWithExperienceMajorComparison(major, experience, status)**: Investigate the effectiveness of an experience on a major for being in a status versus other majors.
     5. ****************Part 5:**************** Appendix functions
         1. Appendix 1: Graph to show post_grad_status by experiences done by those in that status
         2. Appendix 2: Investigating duplicate experiences
