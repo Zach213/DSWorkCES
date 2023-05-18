@@ -58,7 +58,7 @@ Layout of code (See Appendix C of thesis for further detail and a discussion of 
             2. **statusSatisfactionBreakdown**: Pick a major. Find how satisfied those from that major were in different statuses.
             3. **experienceStatusTableForMajor**: Pick a major. Shows a table of what status those in that major who did each experience are in.
         5. Intro to helper 6: Investigating graph 8 as to why Field Placements aren't more effective to satisfaction than doing no experience. General version of 6 given as well.
-            1. **satisfactionWithCountPerMajor**: Investigate how much doing an experience led to satisfaction for a major.
+            1. **satisfactionWithCountPerMajor**: Investigate how much doing an experience led to satisfaction for all majors.
             2. **satisfactionWithExperiences**: Investigate the effectiveness of an experience on a major for satisfaction versus other majors.
             3. **satisfactionWithSpecificExperience**: Investigate the effectiveness of an experience on a major for being satisfied versus other majors who did that experience.
             4. **statusWithExperienceMajorComparison**: Investigate the effectiveness of an experience on a major for being in a status versus other majors.
