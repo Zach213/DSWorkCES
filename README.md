@@ -50,7 +50,8 @@ Layout of code (See Appendix C of thesis for further detail and a discussion of 
             1. Model 7: PCA
     4. ****************Part 4:**************** Helper functions
         1. Majors
-            1. **satisfaction(major)**: Pick a major. Find the % satisfaction.
+            1. **satisfaction(major, minResponses)**: Pick a major. Find the % satisfaction and the rank of that major of all majors with those minimum amount of responses.
+            2. **getMajorByRank(rank, minResponses)**: Pick a rank and minimum responses to choose majors from. Finds the major name with that rank.
         2. Experiences
             1. **TopMajorsDoingExperience(experience)**: Pick an experience. Find the 10 majors who did it the most.
         3. Status
