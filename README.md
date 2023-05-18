@@ -1,5 +1,5 @@
 # DSWorkCES
-Data Science Work for Career Exploration Office &amp; Rutgers as part of my senior thesis, along with best practices and helper functions to use going forward when spreading the data for further use among the university.
+Data Science Work for Career Exploration Office &amp; Rutgers as part of my senior thesis, along with best practices and helper functions to use going forward when potentially spreading the data for further use among the university.
 
 # Layout of code
 
