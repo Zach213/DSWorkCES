@@ -3,7 +3,7 @@ Data Science Work for Career Exploration Office &amp; Rutgers as part of my seni
 
 # Layout of code
 
-Layout of code (See Appendix C of thesis for further detail and a discussion of potential biases in the data. One example is the further education competitiveness ratio. Biology has a low ratio since there are many Biology majors who want to be in graduate school, yet other majors with higher ratios might be higher since less students in those majors want to go to graduate school so the ones who do introduce selection bias as potentially being extremely driven so don't represent the strength of competitiveness of an average person in that major: https://docs.google.com/document/d/1PtWqNkUNcwYUuElqiX8NM0VRSMyUcYgMGfHv7dghhWo/edit?usp=sharing)
+Layout of code (See Appendix C of thesis for further detail and a discussion of potential biases in the data. One example is the further education competitiveness ratio. Biology has a low ratio since there are many Biology majors who want to be in graduate school, yet other majors with higher ratios might be higher since less students in those majors want to go to graduate school so the ones who do introduce selection bias as potentially being extremely driven so don't represent the strength of competitiveness of an average person in that major.
 
 1. Imports
 2. Data import/cleaning: Used data from 2019, 2020, 2021 from a variety of semesters and months. Cleaned by removing graduate students, rows with experiences not in common to 2019, 2020, and 2021, null rows, responded no to satisfaction but still prefer current status, and responded yes to satisfaction but still have a preferred status.
